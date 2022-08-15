@@ -10,7 +10,7 @@ env:
 task:
   install_script:
   - pkg install -y
-    avahi-libdns cmake ninja
+    avahi-libdns cmake curl ninja qt5-core
   script:
   - mkdir build
   - cd build
