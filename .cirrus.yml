@@ -14,5 +14,5 @@ task:
   script:
   - mkdir build
   - cd build
-  - cmake -GNinja ..
+  - cmake -DBARRIER_BUILD_TESTS=OFF -GNinja ..
   - ninja
